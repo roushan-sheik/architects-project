@@ -101,7 +101,7 @@ header nav > ul > li:hover {
   align-items: center;
 }
 .banner_content_box h1 {
-  font-family: 2.25rem;
+  font-size: 2.25rem;
 }
 .banner_content_box p {
   text-align: center;
@@ -112,4 +112,38 @@ header nav > ul > li:hover {
 /* Header img box realated styles  */
 .banner_img_box img {
   border-radius: 8px;
+}
+/* (((((((Header Section Responsive Styles))))))) */
+@media screen and (max-width: 576px) {
+  header nav {
+    flex-direction: column-reverse;
+    padding: auto;
+    padding-top: 1rem;
+  }
+  header nav > ul > li {
+    padding: 0 0.7rem;
+  }
+  .banner_parent {
+    padding: rem;
+    gap: 1.5rem;
+  }
+  .banner_content_box h1 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .btn {
+    padding: 0.838rem 1rem;
+    border-radius: 8px;
+    background: var(--primary_orange);
+    font-size: 0.8rem;
+  }
+  .container {
+    width: 100%;
+  }
+}
+footer {
+  height: 100vh;
 }
