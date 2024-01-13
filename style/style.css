@@ -69,7 +69,7 @@ footer {
   height: 100%;
   object-fit: cover;
 }
-/* ===============> Header related Styles <=================*/
+/* ===============> Header related Styles Start <=================*/
 header nav {
   display: flex;
   justify-content: space-between;
@@ -178,6 +178,25 @@ header nav > ul > li:hover {
   }
   .container {
     width: 90%;
- 
   }
+}
+/* ===============> Header related Styles End <=================*/
+.features_parent {
+  display: flex;
+  gap: 3.422rem;
+  align-items: center;
+  justify-content: center;
+  padding: 6.094rem 0;
+}
+.features_parent div {
+  flex: 1;
+}
+.features_img_box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.125rem;
+  overflow: hidden;
+}
+.features_content_box p {
+  padding: 1.2rem 0;
 }
