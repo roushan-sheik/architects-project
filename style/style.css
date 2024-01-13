@@ -49,6 +49,11 @@ footer {
   font-weight: 700;
   padding: 1.125rem 0;
 }
+.sm_title {
+  font-size: 1.3rem;
+  color: var(--primary_dark);
+  font-weight: 600;
+}
 .para {
   color: var(--secondary_dark);
   font-size: 1rem;
@@ -180,7 +185,7 @@ header nav > ul > li:hover {
     width: 90%;
   }
 }
-/* ===============> Header related Styles End <=================*/
+/* ===============> Features related Styles <=================*/
 .features_parent {
   display: flex;
   gap: 3.422rem;
@@ -206,3 +211,4 @@ header nav > ul > li:hover {
     flex-direction: column;
   }
 }
+/* ===============> Love Features related Styles <=================*/
