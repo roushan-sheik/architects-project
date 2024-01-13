@@ -23,13 +23,18 @@ Our content width is = 75% */
 body {
   font-family: "Work Sans", sans-serif;
   max-width: 1920px;
+  margin: auto;
 }
 /* Style all Anchor tag */
 a {
   text-decoration: none;
-  color: var(--primary_dark);
+  color: #fff;
 }
+
 /* Container Class Styles */
+header {
+  background: #ff900e1a;
+}
 .container {
   width: 75%;
   margin: 0 auto;
@@ -55,16 +60,21 @@ a {
   border: none;
   outline: none;
 }
-/* Header Nav related Styles */
-header > nav {
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* ===============> Header related Styles <=================*/
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-header > nav > ul {
+header nav > ul {
   display: flex;
 }
-header > nav > ul > li {
+header nav > ul > li {
   list-style: none;
   font-size: 0.875rem;
   color: var(--hash_dark);
@@ -74,6 +84,32 @@ header > nav > ul > li {
   cursor: pointer;
   transition: all 0.5s ease;
 }
-header > nav > ul > li:hover {
+header nav > ul > li:hover {
   color: var(--primary_orange);
+}
+/* Header banner related styles */
+.banner_parent {
+  display: flex;
+  flex-direction: column;
+  padding: 2.109rem;
+  gap: 2.344rem;
+}
+.banner_content_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner_content_box h1 {
+  font-family: 2.25rem;
+}
+.banner_content_box p {
+  text-align: center;
+}
+.banner_content_box button {
+  margin-top: 1.5rem;
+}
+/* Header img box realated styles  */
+.banner_img_box img {
+  border-radius: 8px;
 }
