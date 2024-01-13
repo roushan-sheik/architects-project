@@ -200,3 +200,9 @@ header nav > ul > li:hover {
 .features_content_box p {
   padding: 1.2rem 0;
 }
+/* Features section Media Query */
+@media screen and (max-width: 992px) {
+  .features_parent {
+    flex-direction: column;
+  }
+}
