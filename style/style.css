@@ -9,6 +9,11 @@ Our content width is = 75% */
 /* font family from google font  */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap");
 /* Universal Styles */
+:root {
+  --primary_orange: #ff900e;
+  --primary_dark: #131313;
+  --secondary_dark: #727272;
+}
 * {
   margin: 0;
   padding: 0;
@@ -21,5 +26,31 @@ body {
 /* Style all Anchor tag */
 a {
   text-decoration: none;
-  color: black;
+  color: var(--primary_dark);
+}
+/* Container Class Styles */
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+.title {
+  color: var(--primary_dark);
+  font-size: 2.063rem;
+  font-weight: 700;
+  padding: 1.125rem 0;
+}
+.para {
+  color: var(--secondary_dark);
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+.btn {
+  color: #fff;
+  padding: 0.938rem 1.125rem;
+  border-radius: 8px;
+  background: var(--primary_orange);
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
 }
