@@ -1,3 +1,11 @@
+/* Calculate our content width percentage
+Our figma file width is = 1920px
+left space 240px and right also 240px
+Subtract space from total width 
+1920 - (240+240) = 1440px
+(1440 / 1920)= 0.75%
+Our content width is = 75% */
+
 /* font family from google font  */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap");
 /* Universal Styles */
