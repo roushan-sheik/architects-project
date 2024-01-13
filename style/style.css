@@ -1,2 +1,17 @@
 /* font family from google font  */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap");
+/* Universal Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+  max-width: 1920px;
+}
+/* Style all Anchor tag */
+a {
+  text-decoration: none;
+  color: black;
+}
